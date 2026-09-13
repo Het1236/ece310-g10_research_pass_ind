@@ -1,8 +1,6 @@
 # Video
 
-Add the link to the Milestone 1 walkthrough video here once it is recorded.
-
-Link: (add link here)
+Link: https://drive.google.com/file/d/1rkgvqrvlI5v7X1Tf4VxHRamWn6FdLdES/view?usp=sharing
 
 The video should cover:
 - The problem we are solving and why it matters.
