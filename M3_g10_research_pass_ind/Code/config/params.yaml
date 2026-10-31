@@ -1,0 +1,70 @@
+# Parameters for the M2 code. Every simulation reads its values from this file.
+# Physical values come from the EDMA paper (Ding, Schober, Poor, IEEE TWC 2026).
+# Values marked "mine" are my own simulation choices.
+
+# Blockage and free-space constants (EDMA Eq. 2 and Eq. 3)
+phi: 0.02            # blockage parameter, P(LoS) = exp(-phi r^2)
+D_W: 10.0            # width of the service area [m]
+d: 3.0               # waveguide height [m]
+f_c: 28.0e+9          # carrier frequency [Hz]
+eta: null            # eta = c^2 / (16 pi^2 f_c^2), computed by the loader
+rho: 1.0e+12         # transmit SNR P/N0 = 120 dB (P = 30 dBm, noise = -90 dBm)
+
+# Geometry. M is the only free knob. D_S = D_L / M and delta = D_S / 2 are derived.
+M: 3                 # mine: number of segments
+D_L: 40.0            # served length along the waveguide [m], EDMA uses 4 * D_W
+
+# No loss inside the waveguide (standard low-loss dielectric assumption)
+kappa: 0.0
+
+# Simulation settings (mine)
+K_list: [1, 5, 20, 50]   # users per segment used in the leakage-ratio runs
+N_trials: 10000          # default Monte Carlo trials
+seed: 42                 # fixed seed so every run gives the same numbers
+phase2_far_probe_segments: 9   # segments laid out when probing far leakage (a numerical probe, not the real M)
+
+# Figure settings for the leakage-ratio study (mine)
+figure:
+  phiDs2_min: 0.5
+  phiDs2_max: 5.0
+  n_line: 200
+  mc_points: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+  N_quick: 2000
+  N_production: 100000
+  N_production_tail: 1000000
+  tail_from_phiDs2: 2.5
+  resolvability_c: 3.0
+  gate_phiDs2: 3.0
+  feasibility_eps: 0.05
+  load_spread_levels: [1.0, 2.0, 3.0]
+
+# Ergodic rate and comparison settings (mine unless noted)
+phase3:
+  P: 1.0              # per-user transmit power [W]
+  N0: 1.0e-12         # noise power [W], so P/N0 = 1e12 = 120 dB
+  power_model: null   # chosen per experiment: "A" peak power, "B" average power
+  z_quad_tol: 1.0e-8  # tolerance for the numerical integral
+  z_grid_init: 256    # starting number of integration nodes
+  M_sweep: [1, 10]
+  D_S_sweep: [7.07, 17.32]
+  K_sweep: [1, 64]
+  K_mc: [1, 2, 5, 10, 20, 50]
+  rho_grid_dB: [80, 100, 120]
+
+# Design settings added for M3 (placement, power allocation and fairness)
+phase4:
+  gs_tol: 1.0e-3            # position tolerance of the golden-section search [m]
+  exhaustive_points: 5000   # grid size of the exhaustive check (a check only, never the method)
+  R_min_grid: [0.1, 0.25, 0.5, 1.0, 2.0]   # QoS rate floors used in the tests [bps/Hz]
+  R_min_default: 0.5
+  P_max: 1.0                # per-user peak power [W] (Version A)
+  maxmin_scan_points: 200   # scan size of the coarse-scan baseline for max-min placement
+  figure:
+    K_list: [1, 2, 4, 8, 16]            # users per segment in the placement study
+    n_drops: 200                        # random user drops per K
+    exhaustive_marker_K: [1, 4, 16]
+    x_sep_frac: 0.3333333333            # x spread of the users in the fairness layout (fraction of D_S)
+    y2_grid: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0]   # off-axis offset of the last user [m]
+    joint_scan_points: 200
+    complexity_eps_grid: [0.1, 0.01, 0.001, 0.0001, 1.0e-05]
+    complexity_nscan_grid: [50, 100, 200, 400]

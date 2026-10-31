@@ -1,0 +1,18 @@
+load K=1: best M = 5 (rate 54.80)
+load K=2: best M = 4 (rate 47.00)
+load K=4: best M = 3 (rate 41.76)
+load K=8: best M = 3 (rate 36.87)
+length D_L=30 m, K=1: best M = 4 (rate 42.69)
+length D_L=40 m, K=1: best M = 5 (rate 54.80)
+length D_L=50 m, K=1: best M = 7 (rate 67.39)
+length D_L=60 m, K=1: best M = 8 (rate 79.90)
+K=1  : EPMA 39.46, orthogonal B 17.07 (x2.31), orthogonal A 15.48 (x2.55); access delay 1 slot against 3
+K=2  : EPMA 38.62, orthogonal B 18.07 (x2.14), orthogonal A 15.48 (x2.49); access delay 1 slot against 6
+K=4  : EPMA 34.85, orthogonal B 19.07 (x1.83), orthogonal A 15.48 (x2.25); access delay 1 slot against 12
+K=8  : EPMA 27.98, orthogonal B 20.07 (x1.39), orthogonal A 15.48 (x1.81); access delay 1 slot against 24
+K=16 : EPMA 20.38, orthogonal B 21.07 (x0.97), orthogonal A 15.48 (x1.32); access delay 1 slot against 48
+K=20 : EPMA 18.50, orthogonal B 21.39 (x0.86), orthogonal A 15.48 (x1.19); access delay 1 slot against 60
+K=32 : EPMA 16.06, orthogonal B 22.07 (x0.73), orthogonal A 15.48 (x1.04); access delay 1 slot against 96
+K=64 : EPMA 15.09, orthogonal B 23.07 (x0.65), orthogonal A 15.48 (x0.97); access delay 1 slot against 192
+first load where orthogonal access (average power) is ahead: 16
+saved C:\Users\hetpa\AppData\Local\Temp\claude\C--Users-hetpa-OneDrive---Ahmedabad-University-Desktop-UGRP-PASS-ProblemFormulationLatest\09424e7f-bb69-4b6e-b99d-0c6276a67740\scratchpad\M3_g10_research_pass_ind\Results\segments.png

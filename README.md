@@ -30,3 +30,5 @@ Later milestones (M2, M3, ...) will be added as new folders in the same pattern 
 
 ## Status
 - M1: problem statement, literature review, and SOTA position defined. See `M1_g10_research_pass_ind/`.
+- M2: system model, baseline reproduction and first experiments. See `M2_g10_research_pass_ind/`.
+- M3: final design method, experiments, results and critical analysis. See `M3_g10_research_pass_ind/`.

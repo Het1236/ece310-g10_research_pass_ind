@@ -1,0 +1,34 @@
+B_F = 0.4307 per metre; 15 values of y2; time-sharing grid 2001 positions
+K=2 y2= 0.0: certified 2.597 at x=7.65 m, centre 2.493, orthogonal 2.379, naive best 2.594 worst 2.013
+K=2 y2= 1.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 2.355, naive best 2.594 worst 1.908
+K=2 y2= 2.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 2.289, naive best 2.594 worst 1.738
+K=2 y2= 3.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 2.195, naive best 2.594 worst 1.571
+K=2 y2= 4.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 2.087, naive best 2.594 worst 1.402
+K=2 y2= 5.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 1.974, naive best 2.594 worst 1.246
+K=2 y2= 5.5: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 1.916, naive best 2.594 worst 1.175
+K=2 y2= 6.0: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 1.859, naive best 2.594 worst 1.712
+K=2 y2= 6.5: certified 2.597 at x=5.68 m, centre 2.493, orthogonal 1.803, naive best 2.594 worst 1.712
+K=2 y2= 7.0: certified 2.592 at x=5.90 m, centre 2.493, orthogonal 1.748, naive best 2.577 worst 1.712
+K=2 y2= 7.5: certified 2.563 at x=6.24 m, centre 2.493, orthogonal 1.694, naive best 2.552 worst 1.712
+K=2 y2= 8.0: certified 2.499 at x=6.64 m, centre 2.493, orthogonal 1.641, naive best 2.499 worst 1.712
+K=2 y2= 8.5: certified 2.388 at x=6.85 m, centre 2.382, orthogonal 1.589, naive best 2.379 worst 1.712
+K=2 y2= 9.0: certified 2.275 at x=6.83 m, centre 2.271, orthogonal 1.538, naive best 2.201 worst 1.712
+K=2 y2=10.0: certified 2.069 at x=6.81 m, centre 2.066, orthogonal 1.442, naive best 1.721 worst 1.568
+K=4 y2= 0.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 1.013, naive best 1.258 worst 0.884
+K=4 y2= 1.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 1.006, naive best 1.258 worst 0.860
+K=4 y2= 2.0: certified 1.266 at x=7.01 m, centre 1.258, orthogonal 0.987, naive best 1.258 worst 0.799
+K=4 y2= 3.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.960, naive best 1.258 worst 0.759
+K=4 y2= 4.0: certified 1.266 at x=7.01 m, centre 1.258, orthogonal 0.926, naive best 1.258 worst 0.759
+K=4 y2= 5.0: certified 1.266 at x=7.00 m, centre 1.258, orthogonal 0.889, naive best 1.258 worst 0.759
+K=4 y2= 5.5: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.870, naive best 1.258 worst 0.759
+K=4 y2= 6.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.850, naive best 1.258 worst 1.052
+K=4 y2= 6.5: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.830, naive best 1.258 worst 1.052
+K=4 y2= 7.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.809, naive best 1.258 worst 1.052
+K=4 y2= 7.5: certified 1.266 at x=7.01 m, centre 1.258, orthogonal 0.789, naive best 1.258 worst 1.052
+K=4 y2= 8.0: certified 1.266 at x=7.01 m, centre 1.258, orthogonal 0.769, naive best 1.258 worst 1.052
+K=4 y2= 8.5: certified 1.266 at x=7.01 m, centre 1.258, orthogonal 0.748, naive best 1.258 worst 1.043
+K=4 y2= 9.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.728, naive best 1.258 worst 0.983
+K=4 y2=10.0: certified 1.266 at x=6.33 m, centre 1.258, orthogonal 0.689, naive best 1.258 worst 0.873
+K=2: certified floor 2.597 at y2 = 0 and 2.597 at the service edge; orthogonal 2.379 -> 1.974; gap at the edge 0.623 bps/Hz; fixed centre costs up to 0.104 bps/Hz; naive worst start loses up to 1.422 bps/Hz; largest certified gap 1.0e-03; mean evaluations 209
+K=4: certified floor 1.266 at y2 = 0 and 1.266 at the service edge; orthogonal 1.013 -> 0.889; gap at the edge 0.377 bps/Hz; fixed centre costs up to 0.008 bps/Hz; naive worst start loses up to 0.507 bps/Hz; largest certified gap 1.0e-03; mean evaluations 556
+saved C:\Users\hetpa\AppData\Local\Temp\claude\C--Users-hetpa-OneDrive---Ahmedabad-University-Desktop-UGRP-PASS-ProblemFormulationLatest\09424e7f-bb69-4b6e-b99d-0c6276a67740\scratchpad\M3_g10_research_pass_ind\Results\fairness.png

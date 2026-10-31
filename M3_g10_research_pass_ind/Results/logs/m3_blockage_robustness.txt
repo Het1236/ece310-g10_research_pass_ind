@@ -1,0 +1,12 @@
+A  K=1: mean P(LoS) 0.606, own-link blockage costs 39.28 % +- 1.09
+A  K=2: mean P(LoS) 0.572, own-link blockage costs 26.58 % +- 0.82
+A  K=4: mean P(LoS) 0.565, own-link blockage costs 17.90 % +- 0.49
+A  K=8: mean P(LoS) 0.560, own-link blockage costs 14.55 % +- 0.25
+B  K=2: design target 2.597 at x=7.65 m; real min rate falls under it in 23.2 % of draws; mean shortfall 0.317 bit (1.364 when it falls short)
+B  K=4: design target 1.266 at x=6.33 m; real min rate falls under it in 38.0 % of draws; mean shortfall 0.214 bit (0.563 when it falls short)
+C  kappa= off: system rate K=1 39.46, K=5 32.93; K* 1.00e-03; P(all interferers blocked) K=1 0.881, K=5 0.531
+C  kappa= -30: system rate K=1 31.00, K=5 24.20; K* 9.93e-04; P(all interferers blocked) K=1 0.881, K=5 0.531
+C  kappa= -20: system rate K=1 22.65, K=5 18.88; K* 9.24e-04; P(all interferers blocked) K=1 0.881, K=5 0.531
+C  kappa= -10: system rate K=1 14.02, K=5 13.04; K* 5.47e-04; P(all interferers blocked) K=1 0.881, K=5 0.531
+C  reference: orthogonal access (average power) system rate 17.07
+saved C:\Users\hetpa\AppData\Local\Temp\claude\C--Users-hetpa-OneDrive---Ahmedabad-University-Desktop-UGRP-PASS-ProblemFormulationLatest\09424e7f-bb69-4b6e-b99d-0c6276a67740\scratchpad\M3_g10_research_pass_ind\Results\blockage_robustness.png

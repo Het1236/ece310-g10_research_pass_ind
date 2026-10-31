@@ -1,0 +1,6 @@
+P1 K=2: several peaks in   0.0 % of drops; plain golden-section misses   0.0 % (worst 0.00 %); certified misses 0.0 % (worst 2.1e-06 %, largest certified gap 1.0e-03, mean 172 evaluations)
+P1 K=4: several peaks in   0.0 % of drops; plain golden-section misses   0.0 % (worst 0.00 %); certified misses 0.0 % (worst 2.1e-06 %, largest certified gap 1.0e-03, mean 179 evaluations)
+P2 K=2: several peaks in  21.5 % of drops; plain golden-section misses   0.5 % (worst 2.85 %); certified misses 0.0 % (worst 1.6e-04 %, largest certified gap 1.0e-03, mean 252 evaluations)
+P2 K=4: several peaks in  42.0 % of drops; plain golden-section misses   4.0 % (worst 7.44 %); certified misses 2.0 % (worst 5.3e-03 %, largest certified gap 1.0e-03, mean 328 evaluations)
+saved C:\Users\hetpa\AppData\Local\Temp\claude\C--Users-hetpa-OneDrive---Ahmedabad-University-Desktop-UGRP-PASS-ProblemFormulationLatest\09424e7f-bb69-4b6e-b99d-0c6276a67740\scratchpad\M3_g10_research_pass_ind\Results\search_check.csv
+saved C:\Users\hetpa\AppData\Local\Temp\claude\C--Users-hetpa-OneDrive---Ahmedabad-University-Desktop-UGRP-PASS-ProblemFormulationLatest\09424e7f-bb69-4b6e-b99d-0c6276a67740\scratchpad\M3_g10_research_pass_ind\Results\search_check.png
